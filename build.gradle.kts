@@ -32,6 +32,14 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // spring data JPA
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    // mysql driver
+    runtimeOnly("com.mysql:mysql-connector-j")
+    // 하이버네이트 util (jakarta 같이 설치됨)
+    implementation("io.hypersistence:hypersistence-utils-hibernate-60:3.3.2")
+
 }
 
 tasks.withType<Test> {
