@@ -40,6 +40,9 @@ dependencies {
     // 하이버네이트 util (jakarta 같이 설치됨)
     implementation("io.hypersistence:hypersistence-utils-hibernate-60:3.3.2")
 
+    compileOnly("org.projectlombok:lombok:1.18.32")
+
+
 }
 
 tasks.withType<Test> {
