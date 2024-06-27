@@ -22,4 +22,8 @@ public class Product extends BaseEntity {
 
     @Column(name = "price")
     private int price;
+
+    @ManyToOne
+    @JoinColumn(name = "product_provider_id")
+    private ProductProvider productProvider;
 }
