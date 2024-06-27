@@ -1,4 +1,4 @@
-package com.example.demo.entity.mappingPractice;
+package com.example.demo.entity;
 
 import com.example.demo.entity.BaseEntity;
 import com.example.demo.entity.Product;
